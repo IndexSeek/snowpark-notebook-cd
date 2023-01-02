@@ -1,0 +1,6 @@
+ipykernel
+nbconvert
+nbformat
+pre-commit
+snowflake-snowpark-python[pandas]
+xgboost
