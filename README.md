@@ -9,7 +9,7 @@ You can configure a virtual environment to install the dependencies for this rep
 
 If you're on macOS or Linux, you can do this with the following commands:
 ```
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
