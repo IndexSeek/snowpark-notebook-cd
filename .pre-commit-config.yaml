@@ -10,3 +10,11 @@ repos:
     rev: 22.3.0
     hooks:
     -   id: black-jupyter
+-   repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.6.1
+    hooks:
+    -   id: nbqa-isort
+-   repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+    -   id: nbstripout
